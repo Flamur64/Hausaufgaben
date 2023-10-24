@@ -1,4 +1,4 @@
 const lowerCase = require('./lowercase')
-test('uppercase to lower case', () => {
+test('uppercase to lowercase', () => {
   expect(lowerCase('klein')).toBe('klein')
 })
